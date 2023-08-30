@@ -23,6 +23,7 @@ jobs:
 
       - name: npm install, build, and test
         run: |
+          find / -name "package.json"
           pwd
           cd ..
           ls -lna
